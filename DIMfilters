@@ -1,0 +1,26 @@
+/* Zunee's Weapon Cleaner v1.4*/
+(
+  (
+      is:weapon -is:locked -is:crafted -is:wishlist -is:maxpower -is:tagged
+  )
+  or
+  (
+      tag:junk
+  )
+  (
+      (
+          is:blue
+      )
+    or
+      (
+          is:wishlistdupe is:dupelower
+      )
+    or
+      (
+          is:deepsight -is:patternunlocked
+      )
+    or
+      (
+          is:patternunlocked is:dupelower
+  )
+)
