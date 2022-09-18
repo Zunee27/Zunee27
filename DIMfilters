@@ -1,4 +1,4 @@
-/* Zunee's Weapon Cleaner v1.4*/
+/* Zunee's Weapon Cleaner v1.3*/
 (
   (
       is:weapon -is:locked -is:crafted -is:wishlist -is:maxpower -is:tagged
